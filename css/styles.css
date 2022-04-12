@@ -56,12 +56,19 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.button-inline {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 73px;
+}
 
 /* --------------------------------------------HEADER */
 .header {
   padding-top: 24px;
   padding-bottom: 23px;
   border-bottom: 1px solid #ececec;
+  background-color: tomato; /*тимчасово*/
 }
 .header-logo {
   color: var(--acent-color);
@@ -172,14 +179,22 @@ body {
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
   background-color: var(--footer-bgc-color);
-  margin-bottom: 94px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.business {
+  background-color: teal; /*тимчасово*/
 }
 .work {
-  margin-bottom: 94px;
+  background-color: rebeccapurple; /*тимчасово*/
 }
 .our-work {
-  margin-bottom: 94px;
+  background-color: red; /*тимчасово*/
 }
+.bcg-our-team {
+  background-color: gray; /*тимчасово*/
+}
+
 .business-text {
   font-weight: 900;
   font-size: 44px;
@@ -187,24 +202,22 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
-  padding-top: 200px;
-  padding-bottom: 280px;
-  padding-left: 452px;
   text-align: center;
+  margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 .btn-service {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.88;
+
   letter-spacing: 0.06em;
   background-color: var(--acent-color);
   color: var(--primary-bg-color);
   cursor: pointer;
+  min-width: 73px;
 }
 .btn-service:hover,
 .btn-service:focus {
@@ -217,6 +230,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .description-text {
   font-size: 14px;
@@ -231,6 +245,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .our-team {
   font-weight: 700;
@@ -239,6 +254,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 
 .our-team-name {
@@ -247,6 +263,8 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .profession-text {
   font-size: 16px;
@@ -254,6 +272,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 /* --------------------------------footer------------------- */
 .studio-footer {
   color: var(--primary-bg-color);
