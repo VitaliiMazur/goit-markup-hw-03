@@ -34,6 +34,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: 1px solid red;
 }
 
 body {
@@ -51,10 +52,16 @@ body {
 .list {
   list-style: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* --------------------------------------------HEADER */
 .header {
   padding-top: 24px;
   padding-bottom: 23px;
+  border-bottom: 1px solid #ececec;
 }
 .header-logo {
   color: var(--acent-color);
@@ -165,6 +172,13 @@ body {
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
   background-color: var(--footer-bgc-color);
+  margin-bottom: 94px;
+}
+.work {
+  margin-bottom: 94px;
+}
+.our-work {
+  margin-bottom: 94px;
 }
 .business-text {
   font-weight: 900;
@@ -173,7 +187,12 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-left: 452px;
+  text-align: center;
 }
+
 .btn-service {
   font-family: inherit;
   font-weight: 700;
