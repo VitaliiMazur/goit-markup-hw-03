@@ -9,6 +9,33 @@
   --our-team-bgc-color: #f5f4fa; /*колір фону нашої команди*/
   --bgc--hoverfocus-btnservice-color: #188ce8; /*ховер,фокус кнопки заказать услугу*/
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
@@ -25,7 +52,10 @@ body {
   list-style: none;
 }
 /* --------------------------------------------HEADER */
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 23px;
+}
 .header-logo {
   color: var(--acent-color);
   font-family: "Raleway";
