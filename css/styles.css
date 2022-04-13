@@ -68,31 +68,52 @@ body {
   padding-top: 24px;
   padding-bottom: 23px;
   border-bottom: 1px solid #ececec;
+
   background-color: tomato; /*тимчасово*/
 }
 .header-logo {
-  color: var(--acent-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  color: var(--acent-color);
 }
 .studio {
   color: var(--title-text-color);
 }
 
 .header-nav {
+  display: flex;
+  margin-left: 93px;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--title-text-color);
 }
+.header-nav .item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+}
+.header-nav .item + .item {
+  margin-left: 50px;
+}
+.main-nav  {
+display: flex;
+align-items: center;
+}
+
 .st-link,
 .pf-link,
 .kon-link {
-  color: var(--title-text-color);
+  
+ color: var(--title-text-color);
+ 
 }
 
 .st-link:hover,
@@ -110,12 +131,20 @@ body {
 .header-nav .link.current {
   color: var(--acent-color);
 }
+.contact  {
+  display: flex;
+  margin-left: auto;
+}
+.contact .item+.item {
+  margin-left: 50px;
+}
 
 .email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
 
@@ -128,6 +157,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
   color: var(--primary-text-color);
 }
 .tel:hover,
@@ -147,9 +177,10 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  cursor: pointer;
+
   color: var(--title-text-color);
   background-color: var(--our-team-bgc-color);
-  cursor: pointer;
 }
 
 .btn-filter:hover,
@@ -162,27 +193,28 @@ body {
 }
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
-.hed-portfolio {
-  margin-bottom: 121px;
-}
 
 .bcg-our-team {
   background-color: var(--our-team-bgc-color);
 }
 .name {
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
   color: var(--title-text-color);
-  margin-bottom: 4px;
 }
 .p {
+  padding-bottom: 20px;
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
-  padding-bottom: 20px;
 }
 .img-margin-p {
   margin-bottom: 20px;
@@ -193,9 +225,10 @@ body {
 
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
-  background-color: var(--footer-bgc-color);
   padding-bottom: 200px;
   text-align: center;
+
+  background-color: var(--footer-bgc-color);
 }
 .business {
   background-color: teal; /*тимчасово*/
@@ -212,17 +245,19 @@ body {
 }
 
 .business-text {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-bg-color);
   text-align: center;
-  margin-bottom: 30px;
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
+
+  color: var(--primary-bg-color);
 }
 
 .btn-service {
@@ -232,10 +267,11 @@ body {
   line-height: 1.88;
   border: 0px;
   letter-spacing: 0.06em;
-  background-color: var(--acent-color);
-  color: var(--primary-bg-color);
   cursor: pointer;
   min-width: 200px;
+
+  background-color: var(--acent-color);
+  color: var(--primary-bg-color);
 }
 .btn-service:hover,
 .btn-service:focus {
@@ -243,53 +279,63 @@ body {
 }
 
 .list-text {
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
   color: var(--title-text-color);
-  margin-bottom: 10px;
 }
 .description-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 .about-us {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--title-text-color);
-  margin-bottom: 50px;
 }
 .img-margin {
   margin-bottom: 30px;
 }
 .our-team {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+
   color: var(--title-text-color);
-  margin-bottom: 50px;
 }
 
 .our-team-name {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
   color: var(--title-text-color);
-  margin-bottom: 10px;
 }
 .profession-text {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
@@ -298,24 +344,28 @@ body {
   color: var(--primary-bg-color);
 }
 .footer-logo {
-  color: var(--acent-color);
+  margin-bottom: 20px;
+
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
+
+  color: var(--acent-color);
 }
 
 .address {
+  margin-bottom: 9px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--primary-bg-color);
-  margin-bottom: 9px;
 }
 .studio-footer {
   color: var(--primary-bg-color);
@@ -324,20 +374,27 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--primary-bg-color);
 }
 .footer {
-  background-color: var(--footer-bgc-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-color: var(--footer-bgc-color);
 }
+
 .email-footer,
 .tel-footer {
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .email-footer {
