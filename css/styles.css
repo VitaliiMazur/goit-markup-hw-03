@@ -157,8 +157,15 @@ body {
   background-color: var(--acent-color);
   color: var(--primary-bg-color);
 }
+.btn {
+  margin-bottom: 34px;
+}
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
+.hed-portfolio {
+  margin-bottom: 121px;
+}
+
 .bcg-our-team {
   background-color: var(--our-team-bgc-color);
 }
@@ -168,12 +175,20 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-bottom: 4px;
 }
 .p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  padding-bottom: 20px;
+}
+.img-margin-p {
+  margin-bottom: 20px;
+}
+.bgc-color-portfolio {
+  background-color: gray; /*тимчасово*/
 }
 
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
@@ -184,6 +199,7 @@ body {
 }
 .business {
   background-color: teal; /*тимчасово*/
+  padding-top: 200px;
 }
 .work {
   background-color: rebeccapurple; /*тимчасово*/
@@ -204,7 +220,9 @@ body {
   color: var(--primary-bg-color);
   text-align: center;
   margin-bottom: 30px;
-  padding-top: 200px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-service {
@@ -212,12 +230,12 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-
+  border: 0px;
   letter-spacing: 0.06em;
   background-color: var(--acent-color);
   color: var(--primary-bg-color);
   cursor: pointer;
-  min-width: 73px;
+  min-width: 200px;
 }
 .btn-service:hover,
 .btn-service:focus {
@@ -247,6 +265,9 @@ body {
   color: var(--title-text-color);
   margin-bottom: 50px;
 }
+.img-margin {
+  margin-bottom: 30px;
+}
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -263,7 +284,6 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .profession-text {
