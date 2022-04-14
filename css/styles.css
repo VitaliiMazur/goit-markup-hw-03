@@ -34,7 +34,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -69,7 +69,7 @@ body {
   padding-bottom: 23px;
   border-bottom: 1px solid #ececec;
 
-  background-color: tomato; /*тимчасово*/
+  /* background-color: tomato; тимчасово */
 }
 .header-logo {
   font-family: "Raleway";
@@ -103,17 +103,15 @@ body {
 .header-nav .item + .item {
   margin-left: 50px;
 }
-.main-nav  {
-display: flex;
-align-items: center;
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 .st-link,
 .pf-link,
 .kon-link {
-  
- color: var(--title-text-color);
- 
+  color: var(--title-text-color);
 }
 
 .st-link:hover,
@@ -131,11 +129,11 @@ align-items: center;
 .header-nav .link.current {
   color: var(--acent-color);
 }
-.contact  {
+.contact {
   display: flex;
   margin-left: auto;
 }
-.contact .item+.item {
+.contact .item + .item {
   margin-left: 50px;
 }
 
@@ -220,7 +218,7 @@ align-items: center;
   margin-bottom: 20px;
 }
 .bgc-color-portfolio {
-  background-color: gray; /*тимчасово*/
+  /* background-color: gray; тимчасово */
 }
 
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
@@ -231,17 +229,17 @@ align-items: center;
   background-color: var(--footer-bgc-color);
 }
 .business {
-  background-color: teal; /*тимчасово*/
+  /* background-color: teal; тимчасово */
   padding-top: 200px;
 }
 .work {
-  background-color: rebeccapurple; /*тимчасово*/
+  /* background-color: rebeccapurple; тимчасово */
 }
 .our-work {
-  background-color: red; /*тимчасово*/
+  /* background-color: red; тимчасово */
 }
 .bcg-our-team {
-  background-color: gray; /*тимчасово*/
+  /* background-color: gray; тимчасово */
 }
 
 .business-text {
@@ -277,6 +275,15 @@ align-items: center;
 .btn-service:focus {
   background-color: var(--bgc--hoverfocus-btnservice-color);
 }
+.work {
+  display: flex;
+}
+.work .item + .item {
+  margin-left: 30px;
+}
+.work .item:last-child {
+  margin-right: 0;
+}
 
 .list-text {
   margin-bottom: 10px;
@@ -294,6 +301,13 @@ align-items: center;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+.our-work-list .link {
+  display: flex;
+  padding-bottom: 94px;
+}
+.our-work-list .list + .list {
+  margin-left: 30px;
 }
 .about-us {
   margin-bottom: 50px;
@@ -320,6 +334,12 @@ align-items: center;
 
   color: var(--title-text-color);
 }
+.team .link {
+  display: flex;
+}
+.link .list {
+  margin-bottom: 30px;
+}
 
 .our-team-name {
   margin-bottom: 10px;
@@ -331,7 +351,13 @@ align-items: center;
 
   color: var(--title-text-color);
 }
+
+.link .list + .list {
+  margin-left: 30px;
+}
 .profession-text {
+  padding-bottom: 30px;
+
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
