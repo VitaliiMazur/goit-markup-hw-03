@@ -72,7 +72,7 @@ body {
   /* background-color: tomato; тимчасово */
 }
 .header-logo {
-  padding-left:  215px;
+  padding-left: 215px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -82,8 +82,7 @@ body {
   color: var(--acent-color);
 }
 
-
-.studio {
+.studio  {
   color: var(--title-text-color);
 }
 
@@ -193,9 +192,10 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
-  
+
 }
-.button-section .btn-li+.btn-li {
+
+.button-section .btn-li + .btn-li {
   margin-left: 8px;
 }
 
@@ -208,18 +208,18 @@ body {
 }
 .portfolio .items {
   margin-right: 30px;
-  
+
 }
 .portfolio .items:nth-child(3n) {
   margin-right: 0px;
-} .portfolio {
-  padding-bottom: 94px;
 }
-  
+.portfolio {
+padding-bottom: 94px;
 
+}
+ 
 
-
-.name {
+.name  {
   margin-bottom: 4px;
 
   font-weight: 700;
