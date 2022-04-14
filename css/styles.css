@@ -60,7 +60,7 @@ body {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
-  min-width: 73px;
+
 }
 
 /* --------------------------------------------HEADER */
@@ -187,14 +187,35 @@ body {
   color: var(--primary-bg-color);
 }
 .btn {
-  margin-bottom: 34px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;.
+  
 }
+.button-section .btn-li+.btn-li {
+  margin-left: 8px;
+}
+
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
 
-.bcg-our-team {
-  background-color: var(--our-team-bgc-color);
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
+.portfolio .items {
+  margin-right: 30px;
+  
+}
+.portfolio .items:nth-child(3n) {
+  margin-right: 0px;
+} .portfolio {
+  padding-bottom: 94px;
+}
+  
+
+
+
 .name {
   margin-bottom: 4px;
 
@@ -217,9 +238,7 @@ body {
 .img-margin-p {
   margin-bottom: 20px;
 }
-/* .bgc-color-portfolio {
-  background-color: gray; тимчасово
-} */
+
 
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
@@ -277,6 +296,7 @@ body {
 }
 .work {
   display: flex;
+  
 }
 .work .item + .item {
   margin-left: 30px;
@@ -301,6 +321,9 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
+}
+.list-text .description-text {
+  width: 270px;
 }
 .our-work-list .link {
   display: flex;
@@ -350,6 +373,9 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
+}
+.bcg-our-team {
+  background-color: var(--our-team-bgc-color);
 }
 
 .link .list + .list {
