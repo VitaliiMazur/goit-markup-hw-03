@@ -217,9 +217,9 @@ body {
 .img-margin-p {
   margin-bottom: 20px;
 }
-.bgc-color-portfolio {
-  /* background-color: gray; тимчасово */
-}
+/* .bgc-color-portfolio {
+  background-color: gray; тимчасово
+} */
 
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
@@ -232,15 +232,15 @@ body {
   /* background-color: teal; тимчасово */
   padding-top: 200px;
 }
-.work {
-  /* background-color: rebeccapurple; тимчасово */
+/* .work {
+  background-color: rebeccapurple; тимчасово
 }
 .our-work {
-  /* background-color: red; тимчасово */
+  background-color: red; тимчасово
 }
 .bcg-our-team {
-  /* background-color: gray; тимчасово */
-}
+  background-color: gray; тимчасово
+} */
 
 .business-text {
   margin-bottom: 30px;
