@@ -72,7 +72,7 @@ body {
   /* background-color: tomato; тимчасово */
 }
 .header-logo {
-  padding-left: 215px;
+  padding-left:  215px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -81,6 +81,8 @@ body {
 
   color: var(--acent-color);
 }
+
+
 .studio {
   color: var(--title-text-color);
 }
