@@ -192,6 +192,10 @@ body {
   background-color: var(--primary-bg-color);
 }
 
+.button-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .btn-filter {
   font-family: "Roboto";
   font-weight: 500;
@@ -217,15 +221,11 @@ body {
 
 .button-section .btn-li + .btn-li {
   margin-left: 8px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  
 }
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
-.items {
- margin-bottom: ;
-  
-}
+
 
 .portfolio {
   display: flex;
@@ -237,6 +237,7 @@ body {
 .portfolio .items:nth-child(3n) {
   margin-right: 0px;
 }
+.cards 
 
 
 .name {
