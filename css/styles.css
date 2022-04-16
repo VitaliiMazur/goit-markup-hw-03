@@ -98,7 +98,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
-  margin-left: 93px;
+  
 }
 
 .st-link,
@@ -235,13 +235,32 @@ body {
 }
 .portfolio .items {
   margin-right: 30px;
+  margin-bottom: 20px;
+
 }
 .portfolio .items:nth-child(3n) {
   margin-right: 0px;
 }
+
+
+.portfolio .items:nth-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
 .cards {
+  box-sizing: border-box;
+    padding: 20px 24px;
+
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 
 }
+
+.items:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
+
 
 
 .name {
