@@ -230,7 +230,6 @@ body {
 }
 
 .cards {
-  
   padding: 20px 24px;
 
   background: #ffffff;
@@ -257,8 +256,6 @@ body {
   padding-bottom: 30px;
 }
 .p {
-  
-
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -402,8 +399,6 @@ body {
   margin-left: 30px;
 }
 .profession-text {
-  
-
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
